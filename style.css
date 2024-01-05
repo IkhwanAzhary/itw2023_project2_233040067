@@ -147,7 +147,6 @@ html ::-webkit-scrollbar {
 /* top cards */
 #top-cards {
     width: 100%;
-    /* height: 60vh; */
     height: 480px;
     padding-top: 70px;
 }
@@ -506,6 +505,9 @@ html {
     #about {
         height: 110vh;
     }
+    #about .card {
+        margin-left: 50px;
+    }
     #top-cards {
         height: 10px;
     }
@@ -521,6 +523,7 @@ html {
     }
     #contact #col2 h1 {
         font-size: 10px;
+        margin-left: -5px;
     }
     #contact #col2 p {
         font-size: 10px;
